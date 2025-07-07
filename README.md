@@ -1,6 +1,6 @@
 Retrieval Augmented Generation (RAG) application
 
-## REQUIREMENTS:
+# REQUIREMENTS:
 
 You should have installed:
 
@@ -9,7 +9,7 @@ You should have installed:
 - Ollama (for utilizing a language model).
 - Any language model efficient for your pc (Here, LLama3.2 was used).
 
-## PROCESS:
+# PROCESS:
 
 NOTE: The double asterisks (\*\*) represents the beginning and end of syntax written below.
 
@@ -26,3 +26,16 @@ NOTE: The double asterisks (\*\*) represents the beginning and end of syntax wri
 4. Install the necessary packages listed in the "requirements.txt" file, which can be found in the "RAG" folder. For this, go to the terminal and input the syntax below:
 
    ** pip install requirements.txt **
+
+5. Create a file named ".env" in your the "RAG" folder.
+
+6. Generate an API key from Langsmith by going to "langsmith.com" on your web browser, creating an account. After that, click the "Set up tracebility" option at the top of your account page, then click "Generate API key" under the "With Langchain" option.
+
+7. Now copy your generated API key along with the extra set of details and paste them in the ".env" file. What you copy should look like this:
+
+   **
+   LANGSMITH_TRACING=true
+   LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+   LANGSMITH_API_KEY="****\*\*\*\*******\*\*******\*\*\*\*******"
+   LANGSMITH_PROJECT="RAG"
+   \*\*
