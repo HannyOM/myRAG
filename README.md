@@ -4,8 +4,10 @@ Retrieval Augmented Generation (RAG) application
 
 You should have installed:
 
-- Python (best to install the latest, if you have not already installed any).
-- Any code editor (Visual Studio Code preferrably).
+- Python (Here, Python 3.9.0 was used).
+- Any code editor (Here, Visual Studio Code was used).
+- Ollama (for utilizing a language model).
+- Any language model efficient for your pc (Here, LLama3.2 was used).
 
 ## PROCESS:
 
