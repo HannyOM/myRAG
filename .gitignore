@@ -1,0 +1,14 @@
+# Virtual environment 
+RAG_env/
+
+# FAISS vector store
+Vector_Store/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py~
+
+# Environment variables
