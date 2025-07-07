@@ -9,7 +9,7 @@ You should have installed:
 
 ## PROCESS:
 
-NOTE: The double hash symbol "\*\*" represents the beginning and end of syntax written below.
+NOTE: The double asterisks (\*\*) represents the beginning and end of syntax written below.
 
 1. Create a folder to contain the entire project. For example, Let's assume the name this folder is "RAG".
 
