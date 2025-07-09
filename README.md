@@ -4,10 +4,13 @@ Retrieval Augmented Generation (RAG) application
 
 You should have installed:
 
-- Python (Here, Python 3.9.0 was used).
-- Any code editor (Here, Visual Studio Code was used).
+- Python 3.13.2
+- Visual Studio Code
 - Ollama (for utilizing a language model).
-- Any language model efficient for your pc (Here, LLama3.2 was used).
+- Llama 3.2 model
+- nomic-embed-text model (for embedding).
+
+  Note: For any installation you do not know yet, please check YouTube for a video tutorial on how to install it.
 
 # PROCESS:
 
@@ -42,6 +45,8 @@ NOTE: The double asterisks (\*\*) represents the beginning and end of syntax wri
 
 # SUGGESTIONS FOR IMPROVEMENT:
 
-1. Switch from "Text-structure based" text splitting (RecursiveCharacterTextSplitter) to "Semantic-meaning based" text splitting.
+1. Switch from "Text-structure based" text splitting (RecursiveCharacterTextSplitter) to "Semantic-meaning based" text splitting for improved semantic retrieval. Consider "SemanticChunker" at https://python.langchain.com/docs/how_to/semantic-chunker/
 
-2.
+2. Consider an Embedding model with a larger context window for improved context coherence.
+
+3.
