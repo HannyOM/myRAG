@@ -36,6 +36,12 @@ NOTE: The double asterisks (\*\*) represents the beginning and end of syntax wri
    **
    LANGSMITH_TRACING=true
    LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
-   LANGSMITH_API_KEY="****\*\*\*\*******\*\*******\*\*\*\*******"
+   LANGSMITH_API_KEY="\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***"
    LANGSMITH_PROJECT="RAG"
    \*\*
+
+# SUGGESTIONS FOR IMPROVEMENT:
+
+1. Switch from "Text-structure based" text splitting (RecursiveCharacterTextSplitter) to "Semantic-meaning based" text splitting.
+
+2.
