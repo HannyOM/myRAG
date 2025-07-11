@@ -2,15 +2,15 @@ Retrieval Augmented Generation (RAG) application
 
 # REQUIREMENTS:
 
+NOTE: For any installation you do not know yet, please check YouTube for a video tutorial on how to install it.
+
 You should have installed:
 
 - Python 3.13.2
 - Visual Studio Code
-- Ollama (for utilizing a language model).
-- Llama 3.2 model
-- nomic-embed-text model (for embedding).
-
-  Note: For any installation you do not know yet, please check YouTube for a video tutorial on how to install it.
+- Ollama (for utilizing a language model)
+- Llama 3.2 model (or any model efficient for your laptop/PC)
+- nomic-embed-text model (for embedding)
 
 # PROCESS:
 
@@ -43,10 +43,25 @@ NOTE: The double asterisks (\*\*) represents the beginning and end of syntax wri
    LANGSMITH_PROJECT="RAG"
    \*\*
 
+8. Create a folder named "Vector_Store" in the main "RAG" folder. This folder will be used to store the vector store files.
+
+9. Start the Ollama server in order to use the LLM and embedding models by going to the terminal of VS code or Command Prompt and inputting the syntax below:
+
+   ** ollama serve **
+
 # SUGGESTIONS FOR IMPROVEMENT:
 
 1. Switch from "Text-structure based" text splitting (RecursiveCharacterTextSplitter) to "Semantic-meaning based" text splitting for improved semantic retrieval. Consider "SemanticChunker" at https://python.langchain.com/docs/how_to/semantic-chunker/
 
 2. Consider an Embedding model with a larger context window for improved context coherence.
 
-3.
+3. Consider switching from local development to production ready deployment using API keys e.g. from OllamaEmbeddings nomic model to nomic API key, from FAISS vector store to Qdrant vector store .
+
+4. Implement more sophisticated retrieval techniques such as:
+   i. A better vector store like Qdrant or Pinecone.
+
+   ii. A more advanced retriever like BM25retriever or Dense Retriever.
+
+   iii. A combination of multiple retrievers.
+
+   iv. A retriever agent like RAGRetriever or RetrievalQA.
