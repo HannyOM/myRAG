@@ -45,9 +45,11 @@ NOTE: The double asterisks (\*\*) represents the beginning and end of syntax wri
 
 8. Create a folder named "Vector_Store" in the main "RAG" folder. This folder will be used to store the vector store files.
 
-9. Start the Ollama server in order to use the LLM and embedding models by going to the terminal of VS code or Command Prompt and inputting the syntax below:
+9. Change the location of the file assigned to the variable "file_path" under the "Loading the pdf document" section of "INDEXING".
 
-   ** ollama serve **
+10. Start the Ollama server in order to use the LLM and embedding models by going to the terminal of VS code or Command Prompt and inputting the syntax below:
+
+    ** ollama serve **
 
 # SUGGESTIONS FOR IMPROVEMENT:
 
