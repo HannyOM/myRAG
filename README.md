@@ -65,3 +65,5 @@ NOTE: The double asterisks (\*\*) represents the beginning and end of syntax wri
    iii. A combination of multiple retrievers.
 
    iv. A retriever agent like RAGRetriever or RetrievalQA.
+
+   v. Query analysis to transform or construct optimized search queries from raw user input.
